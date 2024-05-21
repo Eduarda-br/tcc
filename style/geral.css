@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Madimi One', cursive !important ;
+    
+    color: black;
+    min-width: 320px;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+} 
+
+
+html{
+    font-size: 62.5% ;
+    margin-top: 12rem     ;
+    scroll-behavior: smooth ;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+main.list-entidade{
+    display: flex;
+    margin: 150px 80px;
+}
+span{
+    color: rgba(255, 138, 128, 1);
+}

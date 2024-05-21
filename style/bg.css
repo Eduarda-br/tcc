@@ -1,0 +1,85 @@
+/* margin-top: para determinar a distância superior;
+   margin-right: para determinar a distância no lado direito;
+   margin-bottom: para indicar o espaçamento inferior;
+   margin-left: para informar o espaçamento esquerdo. */
+
+
+
+#bg-home {
+    margin-bottom: 11vh;
+    overflow: hidden;
+    width: 100%;
+    height: 68vh;
+    border-radius: 0 0 7 7;
+    /* border: 5px solid black; */
+    /* background-size: cover; */
+    /* position: static; */
+}
+
+.bg-home2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+#bg-home2 {
+    overflow: hidden;
+    width: 29%; /*largura*/
+    height: 100%;  /*altura*/
+    text-align: center;
+    background: url("../img/moldura.png") center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.ceu{
+    width: auto;
+    height: 60vh;
+    border-radius: 43% 57% 64% 36% / 50% 51% 49% 50% ;
+    right: 120vh;
+    margin-top: 4vh;
+    background-color: black;
+}
+
+.ceu2{
+    width: auto;
+    height: 70vh;
+    border-radius: 43% 57% 64% 36% / 50% 51% 49% 50% ;
+    right: 120vh;
+    top: 70vh;
+}
+
+
+#bg-ent {
+    padding-top: 11vh;
+    margin-bottom: 11vh;
+    overflow: hidden;
+    width: 100%; 
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/IMGIMG.jpg") top center;
+    background-size: cover;
+    position: static;
+}
+
+#bg-duv {
+    padding-top: 11vh;
+    margin-bottom: 11vh;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/autismo-scaled.jpg") top center;
+    background-size: cover;
+    position: static;
+}
+
+#bg-jogos {
+    padding-top: 11vh;
+    margin-bottom: 11vh;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background: url("../img/materiais.jpg") top center;
+    background-size: cover;
+    position: static;
+}

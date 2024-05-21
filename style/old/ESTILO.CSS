@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+header{
+    background-color: #ede9e980;
+    box-shadow: 5px 5px 15px #0000004d;
+}
+
+header a{
+    color: #000 !important;
+}
+
+.esconder-header{
+    background-color: #fff;
+    /* border: #be0404 px solid; */
+    z-index: 1001;
+    width: 100%;
+    height: 12rem;
+    position: absolute;
+}
+
+.header-2{
+    width: 100%;
+    height: 12rem;
+    background-color: #ede9e9;
+    position: sticky;
+    top: 0rem;
+    z-index: 1000;
+}

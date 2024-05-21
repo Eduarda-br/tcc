@@ -1,0 +1,177 @@
+header{
+  width: 100% !important;
+  height: 12rem !important;
+  background-color: #ede9e9;
+  align-items: center !important;
+  display: flex !important;
+  padding: 0 10rem !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1000;
+}
+
+header section{
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+header nav{
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  text-align: center !important;
+  height: 50% !important;
+  width: 70% !important;
+}
+
+header nav a{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 2.5rem !important;
+  color: rgb(0, 0, 0) !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 600 !important;
+  transition: all 0.2s  ease-in-out !important;  
+  height: 80% !important;
+  width: 15% !important;
+  text-align: center !important;
+}
+
+header nav a:hover{
+  backdrop-filter:  brightness(80%) !important;
+  border-radius: 1rem !important;
+}
+
+header figure{
+  height: 100% !important;
+  width:  9.6rem !important;
+  text-align: center !important;
+  filter: drop-shadow( 5px 2px 3px  rgba(0, 0, 0, 0.651)) !important;
+}
+
+#logo img{
+  height: 70% !important;
+}
+
+header figure h1{
+  line-height: 1.3rem !important;
+  font-family: "Madimi One", sans-serif !important;
+  font-weight: 50 !important;
+}
+
+header figure h1 b.vermelho{
+  color: red;
+}
+
+header figure h1 b.azul{
+  color: rgb(26, 22, 255);
+  font-size: 1.6rem !important;
+}
+
+/* -------------------------------------------MENU HAMBURGUER---------------------------------------- */
+.menu .menu-lines{
+  position: fixed;
+  z-index: 999;
+  width: 35px;
+  height: 35px;
+  right: 50px;
+  top: 40px;
+}
+
+.menu .menu-lines span{
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #b10101;
+  border-radius: 3px;
+  transition: all ease .3s;
+}
+
+.menu .menu-fake{
+  position: fixed;
+  z-index: 1000;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+  cursor: pointer;
+  right: 50px;
+  top: 40px;
+}
+
+.menu .menu-fake:checked ~ ul{
+  filter: drop-shadow(-2px 0 15px #000);
+}
+
+.menu .menu-fake:checked ~ .menu-lines span{
+  background-color: #ee0707;
+}
+
+.menu .menu-fake:checked ~ .menu-lines span:nth-child(1){
+  transform-origin: 0% 0%;
+  transform: rotate(45deg) scaleX(1.25);
+}    
+.menu .menu-fake:checked ~ .menu-lines span:nth-child(2){  
+  opacity: 0;
+}
+.menu .menu-fake:checked ~ .menu-lines span:nth-child(3){   
+  transform-origin: 0% 100%;
+  transform: rotate(-45deg) scaleX(1.25);
+}
+
+.menu ul{
+  position: fixed;
+  z-index:  998;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  padding-top: 150px;
+  background-color: #98bddb;
+  margin-right: -300px;
+  transition: all ease .3s;
+}
+
+.menu .menu-fake:checked ~ ul{
+  margin-right: 0;
+}
+.menu ul li{
+  padding: 10px 30px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+}
+
+.menu ul li:hover:nth-child(1) a {
+  color: #ff0000; 
+}
+
+.menu ul li:hover:nth-child(2) a{
+  color: #01579c; 
+}
+
+.menu ul li:hover:nth-child(3) a{
+  color: #ffff00; 
+}
+
+.menu ul li:hover:nth-child(4) a{
+  color: #0000ff;  
+}
+
+
+.menu ul li:hover:nth-child(5) a{
+  color: #ff0000; 
+}
+#entre{
+  left: 2vw;
+  font-size: 25px;
+  position: relative;
+  bottom: 11.50vh;
+  color: #be0404; 
+  
+}
